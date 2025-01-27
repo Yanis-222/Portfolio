@@ -1,8 +1,8 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     '.index.html',
-    "./**/*.html", "./**/*.js"],
+    "./**/*.html", "./**/*.js"
+  ],
   theme: {
     extend: {
       animation: {
@@ -15,7 +15,7 @@ module.exports = {
         },
       },
       colors: {
-        background: "#3D3A4B",
+        background: "#1D1F27",
         primary: "#F7E3AF",
         secondary: "#08A4BD",
         neutral: "#E3DFFF",
